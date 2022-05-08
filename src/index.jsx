@@ -14,7 +14,7 @@ import App from "./App";
 import "./__fakeApi__";
 ReactDOM.render(<StrictMode>
   <LocalizationProvider dateAdapter={AdapterDateFns}>
-    {/* <AuthProvider> */}
+    {/* <AuthProvider> CHANGE1: removed authprovider for app to work without login */}
     <SettingsProvider>
       <TitleContextProvider>
         <BrowserRouter>

@@ -7,6 +7,8 @@ import { useState, useEffect, Fragment } from "react";
 import { useTranslation } from "react-i18next";
 import { primary } from "theme/themeColors";
 
+// CHANGE 3: created news component for the page working at http://localhost:3000/news
+// CHANGE 4: in package.json file added proxy for http://54.69.72.157:8090 otherwise CORS error would occur
 const News = () => {
   useTitle("News");
   const { t } = useTranslation();

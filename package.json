@@ -2,8 +2,8 @@
   "name": "click2news",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
   "proxy": "http://54.69.72.157:8090",
+  "type": "module",
   "dependencies": {
     "@auth0/auth0-spa-js": "^1.19.2",
     "@emotion/react": "^11.4.1",

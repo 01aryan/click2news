@@ -34,7 +34,7 @@ const routes = [
     element: <ComponentsPage />
   },
   {
-    path: 'news',
+    path: 'news', // CHANGE 2: created a route for news page
     element: <DashboardLayout><News></News></DashboardLayout>
   },
   {
